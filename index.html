@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>LEBEPE GLM GROUP (PTY) LTD</title>
+
+  <!-- FontAwesome CDN for icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    crossorigin="anonymous"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container header-container">
+      <div class="logo">
+        <img src="./images/truck-icon.png.png" alt="Truck Icon" />
+        <h1>LEBEPE GLM GROUP (PTY) LTD</h1>
+      </div>
+      <nav>
+        <button class="mobile-menu-toggle" aria-expanded="false" aria-label="Menu">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-links">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#quote">Get a Quote</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-overlay">
+      <div class="container hero-content">
+        <h2>The Lion of the North</h2>
+        <p>Your trusted partner in garden services, tree felling, rubble removal, garden refuse removal, and transport.</p>
+      </div>
+    </div>
+  </section>
+
+  <main class="container">
+    <section id="services" class="services-section">
+      <h2>Our Services</h2>
+      <div class="services-grid">
+        <div class="service-box garden">
+          <i class="fa-solid fa-seedling service-icon"></i>
+          <h3>Garden Services</h3>
+          <p>Professional garden maintenance and landscaping.</p>
+        </div>
+        <div class="service-box tree-felling">
+          <i class="fa-solid fa-tree service-icon"></i>
+          <h3>Tree Felling</h3>
+          <p>Safe and efficient tree removal services.</p>
+        </div>
+        <div class="service-box rubble">
+          <i class="fa-solid fa-dumpster service-icon"></i>
+          <h3>Rubble Removal</h3>
+          <p>Quick clearing and removal of rubble and debris.</p>
+        </div>
+        <div class="service-box refuse">
+          <i class="fa-solid fa-recycle service-icon"></i>
+          <h3>Garden Refuse Removal</h3>
+          <p>Eco-friendly garden refuse disposal.</p>
+        </div>
+        <div class="service-box transport">
+          <i class="fa-solid fa-truck service-icon"></i>
+          <h3>Transport</h3>
+          <p>Reliable Hyundai H100 truck transport services.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="quote" class="quote-section">
+      <h2>Request a Quote</h2>
+      <form id="quoteForm" class="quote-form">
+        <input type="text" id="name" name="name" placeholder="Full Name *" required />
+        <input type="email" id="email" name="email" placeholder="Email *" required />
+        <input type="tel" id="phone" name="phone" placeholder="Phone Number *" required />
+        <select id="service" name="service" required>
+          <option value="" disabled selected>Select Service *</option>
+          <option value="Garden Services">Garden Services</option>
+          <option value="Tree Felling">Tree Felling</option>
+          <option value="Rubble Removal">Rubble Removal</option>
+          <option value="Garden Refuse Removal">Garden Refuse Removal</option>
+          <option value="Transport">Transport</option>
+        </select>
+        <textarea id="message" name="message" placeholder="Additional Details"></textarea>
+        <button type="submit">Submit Request</button>
+      </form>
+    </section>
+
+    <section id="operating-hours" class="operating-hours-section">
+      <h2>Operating Hours</h2>
+      <p>Monday to Saturday - 08:00 to 18:00</p>
+      <p>Sunday/Public Holidays - Emergency Removal</p>
+    </section>
+
+    <section id="locations" class="locations-section">
+      <h2>Locations We Operate In</h2>
+      <p>We operate across Gauteng and offer services in different areas within Gauteng.</p>
+    </section>
+
+    <section id="reach-out" class="reach-out-section">
+      <h2>Reach Out To Us</h2>
+      <p>Please give our office a call should you have any questions or specific requirements. A manager is always readily available to answer all your questions.</p>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <h2>Contact Us</h2>
+      <p>
+        <i class="fa-solid fa-phone contact-icon"></i>
+        <a href="tel:+27832423262">083 242 3262</a> | 
+        <a href="tel:+27725315425">072 531 5425</a>
+      </p>
+      <p>
+        <i class="fa-solid fa-envelope contact-icon"></i>
+        <a href="mailto:lebepem13@gmail.com">lebepem13@gmail.com</a>
+      </p>
+      <p>
+        <i class="fa-solid fa-location-dot contact-icon"></i>
+        South Africa
+      </p>
+    </section>
+
+    <section id="about" class="about-section">
+      <h2>About Us</h2>
+      <p>
+        LEBEPE GLM Group (PTY) LTD, known as "The Lion of the North", is dedicated to providing top-quality outdoor and transport services in South Africa.
+        We pride ourselves on our reliability and professionalism.
+      </p>
+    </section>
+
+    <section id="testimonials" class="testimonials-section">
+      <h2>Testimonials</h2>
+      <div class="testimonial">
+        <p>"LEBEPE GLM Group provided excellent service. Highly recommend!"</p>
+        <h4>- Thabo M., Pretoria</h4>
+      </div>
+      <div class="testimonial">
+        <p>"Professional and reliable. Great tree felling job done."</p>
+        <h4>- Lerato N., Johannesburg</h4>
+      </div>
+      <div class="testimonial">
+        <p>"Fast rubble removal and excellent communication."</p>
+        <h4>- Sipho K., Kempton Park</h4>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 LEBEPE GLM Group (PTY) LTD</p>
+  </footer>
+
+  <!-- Back to top button -->
+  <button id="backToTop" title="Back to Top"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/27832423262" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
